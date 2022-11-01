@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">uniformes da copa</string>
+    <string name="label">Seleção</string>
+    <string name="selecoes">Seleções</string>
+    <string name="uniformes_da_copa">Uniformes da Copa</string>
+    <string name="uniforme_2">Uniforme 2</string>
+    <string name="uniforme_1">Uniforme 1</string>
+</resources>
