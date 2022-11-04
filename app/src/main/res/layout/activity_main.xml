@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".view.MainActivity">
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout"
@@ -27,7 +27,7 @@
             android:layout_weight="1"
             android:inputType="none"
             android:textColorHint="#757575"
-            tools:ignore="LabelFor,TextContrastCheck,TextContrastCheck" />
+            tools:ignore="LabelFor,TextContrastCheck,TextContrastCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout

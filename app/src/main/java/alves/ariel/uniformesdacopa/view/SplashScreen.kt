@@ -1,4 +1,4 @@
-package alves.ariel.uniformesdacopa
+package alves.ariel.uniformesdacopa.view
 
 import alves.ariel.uniformesdacopa.databinding.ActivitySplashScreenBinding
 import android.annotation.SuppressLint
@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 @SuppressLint("StaticFieldLeak")
 private lateinit var binding: ActivitySplashScreenBinding
+@Suppress("DEPRECATION")
 @SuppressLint("CustomSplashScreen")
 class SplashScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,4 +1,4 @@
-package alves.ariel.uniformesdacopa
+package alves.ariel.uniformesdacopa.view
 
 import alves.ariel.uniformesdacopa.databinding.ActivityFragmentsTeamsBinding
 import android.os.Bundle
@@ -10,8 +10,7 @@ import androidx.fragment.app.Fragment
 
 class FragmentTeams : Fragment() {
     private var _binding:ActivityFragmentsTeamsBinding? = null
-
-    private val binding get() = _binding!!
+    private val binding: ActivityFragmentsTeamsBinding get() = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater,
