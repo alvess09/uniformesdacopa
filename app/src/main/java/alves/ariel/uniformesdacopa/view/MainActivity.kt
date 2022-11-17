@@ -1,15 +1,19 @@
 package alves.ariel.uniformesdacopa.view
 
 import alves.ariel.uniformesdacopa.R
+import alves.ariel.uniformesdacopa.api.RetrofitService
 import alves.ariel.uniformesdacopa.databinding.ActivityMainBinding
 import alves.ariel.uniformesdacopa.model.Team
 import android.annotation.SuppressLint
 import android.os.Bundle
+import android.view.View
+import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.add
 import androidx.fragment.app.commit
+import retrofit2.Callback
 
 @SuppressLint("StaticFieldLeak")
 private lateinit var binding: ActivityMainBinding
@@ -31,10 +35,12 @@ open class MainActivity : AppCompatActivity() {
             }
         }
 
+       // TODO("verificar o item selecionado do menu e de acordo com a seleção requisitar o objeto da API equivalente")
 
-        //val service : RetrofitService = retrofit.create(RetrofitService.class)
     }
 
+    }
+    */
     private fun setItemsList() {
 
         val items = listOf(
@@ -73,6 +79,8 @@ open class MainActivity : AppCompatActivity() {
         )
         val adapter = ArrayAdapter(this, R.layout.list_teams, items)
         binding.tvItems.setAdapter(adapter)
+
+
 
 
 
