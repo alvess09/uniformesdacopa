@@ -20,6 +20,7 @@ interface RetrofitService {
 
             return@lazy retrofitService.create(RetrofitService::class.java)
         }
+
         fun getInstance(): RetrofitService{
             return retrofitService
         }
